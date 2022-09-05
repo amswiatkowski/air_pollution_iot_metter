@@ -1,0 +1,16 @@
+{
+  "component": {
+    "com.cloudybarz.airPollutionMetter": {
+      "author": "sz3jdii",
+      "version": "NEXT_PATCH",
+      "build": {
+        "build_system": "zip"
+      },
+      "publish": {
+        "bucket": "iot-greengrass-air-pollution",
+        "region": "eu-central-1"
+      }
+    }
+  },
+  "gdk_version": "1.0.0"
+}
