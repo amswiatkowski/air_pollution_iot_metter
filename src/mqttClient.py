@@ -11,7 +11,7 @@ def publish(data):
     ipc_client = awsiot.greengrasscoreipc.connect()
                         
     topic = "pollution"
-    message = '{"message": {"pm2.5":'+str(data['pm2.5'])+',"pm10":' +str(data['pm10'])+'}}'
+    message = '{"message": {"pm25":'+str(data['pm2.5'])+',"pm10":' +str(data['pm10'])+'}}'
 
     print('MQTT MESSAGE'+message)
     qos = QOS.AT_LEAST_ONCE
