@@ -8,7 +8,7 @@ idna==3.11
 iniconfig==1.1.1
 jmespath==1.1.0
 jsonschema==4.26.0
-packaging==21.3
+packaging==26.1
 pluggy==1.6.0
 py==1.11.0
 pyparsing==3.3.2
