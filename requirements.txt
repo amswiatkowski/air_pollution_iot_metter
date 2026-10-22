@@ -15,7 +15,7 @@ pyparsing==3.3.3
 pyrsistent==0.20.0
 pyserial==3.5
 pytest==7.4.4
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
 PyYAML==6.0.3
 requests==2.34.2
 s3transfer==0.19.3
